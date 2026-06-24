@@ -37,6 +37,6 @@ jobs:
           echo test, and deploy your project.
       - name: Run Testsigma Automation Suites
         run: |
-          cd .github/workflows/jathin.sh
+          cd .github/workflows
           chmod a+x jathin.sh
           ./jathin.sh
